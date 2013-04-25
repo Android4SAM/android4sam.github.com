@@ -1,0 +1,18 @@
+Android4SAM Git Server
+
+Welcome to the git server of Android4SAM for SamA5D3x.
+
+The manifest project is loated at: sammanifest. 
+
+Once you setup your build environment correctly, you could build it via:
+
+$ mkdir android4sam_v3.0 && cd android4sam_v3.0
+$ repo init -u git://github.com/Android4SAM/platform_sammanifest.git -b android4sam_v3.0
+$ repo sync
+$ source build/envsetup.sh
+$ lunch sama5d3-eng
+$ make -j4
+
+Please visit Android4SAM for binary demo for SamA5D3x and step by step guide for building the demo from source code.
+
+If you have any suggestions and/or comments, please don't be hesitate to contact us.
