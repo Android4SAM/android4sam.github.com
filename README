@@ -6,8 +6,8 @@ The manifest project is loated at: sammanifest.
 
 Once you setup your build environment correctly, you could build it via:
 
-$ mkdir android4sam_v3.0 && cd android4sam_v3.0
-$ repo init -u git://github.com/Android4SAM/platform_sammanifest.git -b android4sam_v3.0
+$ mkdir android4sam && cd android4sam
+$ repo init -u git://github.com/Android4SAM/platform_sammanifest.git -b <branch_name>
 $ repo sync
 $ source build/envsetup.sh
 $ lunch sama5d3-eng
